@@ -59,3 +59,20 @@ h2 em,.image-break em{color:#ca8655}
 /* Publication authors, including highlighted site owner */
 .publication .pub-authors{font-style:normal;font-size:.9rem;line-height:1.65;color:var(--ink);margin:0 0 7px}
 .publication .pub-self{font-weight:700;color:#b96d3d}
+
+/* V4: Research cards with scientific images and captions */
+.research-section .section-heading{margin-bottom:26px}
+.research-summary{max-width:950px;margin:0 0 45px}
+.research-summary p{font-size:1.12rem;line-height:1.8;color:var(--muted)}
+.research-cards{align-items:stretch}
+.research-section .research-cards .info-card{padding:0;min-height:unset;overflow:hidden;display:flex;flex-direction:column}
+.research-card-media{position:relative;margin:0;width:100%;aspect-ratio:16/10;background:#142235;overflow:hidden}
+.research-card-media img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .7s ease}
+.research-card-media img:hover{transform:scale(1.035)}
+.research-card-media figcaption{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(transparent,#0b1327c7);color:#fff;font-size:.69rem;padding:28px 16px 12px}
+.research-card-body{display:flex;flex:1;flex-direction:column;padding:26px 26px 32px}
+.research-card-body .card-number{margin-bottom:16px}
+.research-section .research-card-body h3{font-size:2rem;margin:0 0 18px}
+.research-section .research-card-body p{line-height:1.72;font-size:.9rem;margin:0 0 14px}
+.research-link{font-weight:700;font-size:.81rem;color:#af6537;border-bottom:1px solid #af6537;margin-top:auto;padding-top:12px;width:fit-content}
+@media(max-width:760px){.research-card-body{padding:23px}.research-summary p{font-size:1rem}}
