@@ -43,3 +43,60 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
   document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
 }
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Local, periodically updated bibliography. No API keys are ever sent to visitors.
+async function loadPublications() {
+  const list = document.getElementById('publication-list');
+  const note = document.getElementById('publication-note');
+  if (!list) return;
+  try {
+    const response = await fetch(`publications.json?v=${Date.now()}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const publications = Array.isArray(data.works) ? data.works : [];
+    list.replaceChildren();
+    if (!publications.length) {
+      const message = document.createElement('p');
+      message.className = 'pub-status';
+      message.textContent = 'The publication list is not synchronized yet. You can view my complete ORCID record using the link below.';
+      list.append(message);
+      return;
+    }
+    for (const work of publications) {
+      const row = document.createElement('article');
+      row.className = 'publication';
+      const year = document.createElement('span');
+      year.className = 'pub-year';
+      year.textContent = work.year || '—';
+      const body = document.createElement('div');
+      const title = document.createElement('h3');
+      title.textContent = work.title || 'Untitled work';
+      const venue = document.createElement('p');
+      venue.className = 'pub-venue';
+      venue.textContent = work.venue || 'Research publication';
+      body.append(title, venue);
+      const link = document.createElement('a');
+      link.className = 'pub-link';
+      link.href = /^https:\/\//.test(work.url || '') ? work.url : 'https://orcid.org/0000-0003-2594-2128';
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.setAttribute('aria-label', `Read ${title.textContent}`);
+      link.textContent = '↗';
+      row.append(year, body, link);
+      list.append(row);
+    }
+    if (data.updated_at) {
+      const time = document.createElement('time');
+      time.dateTime = data.updated_at;
+      time.textContent = ` Last synchronized: ${new Date(data.updated_at).toLocaleDateString('en-GB')}.`;
+      note.append(time);
+    }
+  } catch (error) {
+    list.replaceChildren();
+    const message = document.createElement('p');
+    message.className = 'pub-status';
+    message.textContent = 'Publications could not be loaded. Please see my ORCID profile below.';
+    list.append(message);
+  }
+}
+loadPublications();
