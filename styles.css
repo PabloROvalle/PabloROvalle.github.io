@@ -76,3 +76,8 @@ h2 em,.image-break em{color:#ca8655}
 .research-section .research-card-body p{line-height:1.72;font-size:.9rem;margin:0 0 14px}
 .research-link{font-weight:700;font-size:.81rem;color:#af6537;border-bottom:1px solid #af6537;margin-top:auto;padding-top:12px;width:fit-content}
 @media(max-width:760px){.research-card-body{padding:23px}.research-summary p{font-size:1rem}}
+
+.research-card-media.methods-image img {
+  object-fit: contain;
+  background-color: #000;
+}
