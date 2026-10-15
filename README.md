@@ -1,9 +1,11 @@
-# Academic website — Teaching V5
+# Academic website — Version 6
 
-This complete version includes the new Teaching & Mentoring section, all five courses, university identity badges, and Rose Peybernes’ M1 thesis. It also includes the previously provided non-LTE figure and the earlier site files.
+## Upload to GitHub Pages
 
-**Upload:** replace `index.html` and `styles.css` in GitHub. If missing, upload `assets/nonLTE_jupiter.png`. **Do not delete `publications.json`** or the existing `.github` workflow. You do NOT have to replace your Python publication sync or JavaScript for this teaching-only update.
+Upload **index.html**, **styles.css**, and the **six new logo files** inside `assets/` to your GitHub Pages repository. `script.js` and your existing workflow do not require changes.
 
-Institutional identity badges here are typographic labels rather than official downloaded logos. To use actual logos, obtain the official logo files from the universities and replace the badges, subject to their branding rules.
+The archive also contains the full website so you can restore files if needed. **Do not delete or overwrite your existing `publications.json`**, which is generated automatically by GitHub Actions and is intentionally excluded from this package.
 
-The figure credit and exact dissertation French accent spelling should be checked by you before final publication.
+New logos: logo-psl.png, logo-sorbonne.png, logo-paris-cite.jpg, logo-observatoire.png, logo-iaa-csic.png, logo-upv-ehu.jpg.
+
+Changes: teaching affiliations with supplied institutional logos, academic timeline with four dated entries and relevant institution logos.
