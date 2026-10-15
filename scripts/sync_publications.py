@@ -51,7 +51,7 @@ for page in range(1, 11):
             if name:
                 authors.append({
                     'name': name,
-                    'is_self': person.get('id', '').rstrip('/').split('/')[-1] == author_id,
+                    'is_self': (person.get('id') or '').rstrip('/').split('/')[-1] == author_id,  
                 })
         works.append({
             'authors': authors,
