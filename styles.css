@@ -81,3 +81,28 @@ h2 em,.image-break em{color:#ca8655}
   object-fit: contain;
   background-color: #000;
 }
+
+/* V5: teaching and mentoring */
+.teaching-section{background:#faf7f0}
+.teaching-section .section-heading{margin-bottom:30px}
+.teaching-section .section-heading>p{max-width:380px}
+.teaching-affiliations{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 28px}
+.institution-wordmark{display:flex;align-items:center;gap:11px;min-height:82px;padding:14px;background:#fff;border:1px solid #e7dfd5;border-radius:4px;color:#25374a;font-size:.78rem;line-height:1.25;transition:border-color .2s,transform .2s}
+.institution-wordmark:hover{border-color:#cf9167;transform:translateY(-2px)}
+.institution-symbol{width:48px;height:48px;flex:0 0 48px;border-radius:3px;display:grid;place-items:center;font-size:1rem;letter-spacing:-.06em;background:#172c55;color:white;font-weight:700}
+.institution-symbol.up{background:#9f2941;font-size:.75rem}.institution-symbol.psl{background:#122a83}.institution-symbol.obs{background:#0b376e}
+.teaching-layout{display:grid;grid-template-columns:1.27fr 1fr;gap:20px;align-items:stretch}
+.teaching-panel{background:#f0e9df;border-top:3px solid #ed985d;padding:32px;min-width:0}
+.teaching-panel-kicker{font-size:.68rem;color:#bd7547;letter-spacing:.14em;font-weight:700;margin:0 0 14px}
+.teaching-panel h3{font-family:var(--serif);font-size:clamp(1.7rem,2.4vw,2.35rem);font-weight:400;line-height:1.2;margin:0 0 16px}
+.teaching-intro{color:var(--muted);font-size:.91rem;line-height:1.75;margin:0 0 25px}
+.course-list{border-top:1px solid #d6c9b9}.course-item{display:flex;justify-content:space-between;align-items:start;gap:20px;border-bottom:1px solid #d6c9b9;padding:17px 0}
+.course-item h4{font-size:.94rem;font-weight:600;line-height:1.4;margin:0 0 4px}.course-item span{font-size:.79rem;color:var(--muted)}.course-item>strong{font-size:.85rem;white-space:nowrap;color:#b96d3d}
+.mentoring-entry{border-top:1px solid #d6c9b9;padding-top:25px;margin-top:26px}
+.mentoring-degree{font-size:.67rem;letter-spacing:.14em;color:#b96d3d;font-weight:700}
+.mentoring-entry h4{font-family:var(--serif);font-weight:400;font-size:2rem;margin:14px 0 10px}
+.mentoring-thesis{font-size:1.04rem;line-height:1.65;color:var(--ink);font-style:italic}
+.mentoring-credit{margin-top:35px;display:grid;gap:4px}.mentoring-credit span{font-size:.77rem;color:var(--muted)}.mentoring-credit strong{font-size:.95rem}
+.research-card-media.methods-image img:hover{transform:none}
+@media(max-width:900px){.teaching-affiliations{grid-template-columns:repeat(2,minmax(0,1fr))}.teaching-layout{grid-template-columns:1fr}}
+@media(max-width:520px){.teaching-affiliations{grid-template-columns:1fr 1fr;gap:8px}.institution-wordmark{padding:9px;gap:7px;font-size:.68rem}.institution-symbol{width:35px;height:35px;flex-basis:35px;font-size:.72rem}.teaching-panel{padding:24px}}
