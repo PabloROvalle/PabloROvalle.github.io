@@ -43,7 +43,18 @@ for page in range(1, 11):
         source = (location.get('source') or {})
         doi = item.get('doi')
         url = doi if doi and doi.startswith('https://doi.org/') else item.get('id')
+        # OpenAlex 'authorships' follows the publication's author order.
+        authors = []
+        for authorship in item.get('authorships', []):
+            person = authorship.get('author') or {}
+            name = (person.get('display_name') or '').strip()
+            if name:
+                authors.append({
+                    'name': name,
+                    'is_self': person.get('id', '').rstrip('/').split('/')[-1] == author_id,
+                })
         works.append({
+            'authors': authors,
             'title': title,
             'year': item.get('publication_year'),
             'venue': source.get('display_name') or item.get('type_crossref') or '',

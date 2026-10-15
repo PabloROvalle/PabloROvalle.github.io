@@ -74,7 +74,20 @@ async function loadPublications() {
       const venue = document.createElement('p');
       venue.className = 'pub-venue';
       venue.textContent = work.venue || 'Research publication';
-      body.append(title, venue);
+      body.append(title);
+      if (Array.isArray(work.authors) && work.authors.length) {
+        const authors = document.createElement('p');
+        authors.className = 'pub-authors';
+        work.authors.forEach((person, index) => {
+          if (index) authors.append(document.createTextNode(', '));
+          const name = document.createElement(person.is_self ? 'strong' : 'span');
+          name.textContent = person.name || '';
+          if (person.is_self) name.className = 'pub-self';
+          authors.append(name);
+        });
+        body.append(authors);
+      }
+      body.append(venue);
       const link = document.createElement('a');
       link.className = 'pub-link';
       link.href = /^https:\/\//.test(work.url || '') ? work.url : 'https://orcid.org/0000-0003-2594-2128';

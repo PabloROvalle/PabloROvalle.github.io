@@ -55,3 +55,7 @@ h2 em,.image-break em{color:#ca8655}
 
 /* Publication sync and professional links */
 .underlined{text-decoration:underline;text-underline-offset:4px}.pub-status{padding:28px 0;color:var(--muted)}.publication a.pub-link{font-size:1.5rem;align-self:center;transition:transform .2s;color:#b96d3d}.publication a.pub-link:hover{transform:translate(3px,-3px)}.publication .pub-venue{font-style:italic}.contact-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin:28px 0}.contact-links a{display:inline-block;border-bottom:1px solid currentColor;font-weight:700;padding:8px 0}.contact-links a:hover{color:#bb7542} 
+
+/* Publication authors, including highlighted site owner */
+.publication .pub-authors{font-style:normal;font-size:.9rem;line-height:1.65;color:var(--ink);margin:0 0 7px}
+.publication .pub-self{font-weight:700;color:#b96d3d}

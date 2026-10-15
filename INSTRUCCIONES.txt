@@ -1,0 +1,13 @@
+ACTUALIZACION DE AUTORES - web PabloROvalle.github.io
+
+Sube a GitHub SOLO estos archivos, manteniendo sus rutas:
+1) script.js a la raiz
+2) styles.css a la raiz
+3) scripts/sync_publications.py a la carpeta scripts
+
+IMPORTANTE: No borres ni reemplaces publications.json.
+
+Despues ejecuta Actions > Sync publications from ORCID-linked OpenAlex author > Run workflow.
+Al terminar, publications.json incorporara authors para cada articulo, y tu web mostrara autores/coautores en orden con tu nombre resaltado.
+
+Si algunos trabajos no incluyen autores, OpenAlex puede tener metadatos incompletos.
