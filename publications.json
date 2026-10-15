@@ -1,4 +1,2215 @@
 {
-  "updated_at": null,
-  "works": []
+  "updated_at": "2026-10-15T22:16:45.044965+00:00",
+  "source": "OpenAlex (author matched by ORCID)",
+  "orcid": "0000-0003-2594-2128",
+  "works": [
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Rose Peybernes",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Sandrine Guerlet",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "M. López‐Puertas",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Simon Toogood",
+          "is_self": false
+        }
+      ],
+      "title": "JWST Cycle 4 observations of Jupiter’s polar region:Constraining temperature and hydrocarbon abundances",
+      "year": 2026,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2026-908"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Miguel Angel Lopez-Valverde",
+          "is_self": false
+        },
+        {
+          "name": "Ashimananda Modak",
+          "is_self": false
+        },
+        {
+          "name": "Francisco González‐Galindo",
+          "is_self": false
+        },
+        {
+          "name": "Adrián Brines",
+          "is_self": false
+        },
+        {
+          "name": "Miguel Ángel Gamonal",
+          "is_self": false
+        },
+        {
+          "name": "Juan Alday",
+          "is_self": false
+        },
+        {
+          "name": "Alexander Trokhimoskiy",
+          "is_self": false
+        },
+        {
+          "name": "Denis A. Belyaev",
+          "is_self": false
+        },
+        {
+          "name": "Kevin Sutherland Olsen",
+          "is_self": false
+        },
+        {
+          "name": "Franck Montmessin",
+          "is_self": false
+        },
+        {
+          "name": "Lucio Baggio",
+          "is_self": false
+        },
+        {
+          "name": "Anna A. Fedorova",
+          "is_self": false
+        },
+        {
+          "name": "Oleg Korablev",
+          "is_self": false
+        },
+        {
+          "name": "Frank W. Daerden",
+          "is_self": false
+        },
+        {
+          "name": "Ian Richard Thomas",
+          "is_self": false
+        },
+        {
+          "name": "Ann Carine Vandaele",
+          "is_self": false
+        },
+        {
+          "name": "Manish  R. Patel",
+          "is_self": false
+        },
+        {
+          "name": "G. Bellucci",
+          "is_self": false
+        }
+      ],
+      "title": "Martian CO vertical distribution combining 4 Martian Years of TGO/ACS MIR solar occultation data",
+      "year": 2026,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2026-868"
+    },
+    {
+      "authors": [
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Simon Toogood",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "G. L. Bjoraker",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Philip Marcus",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Arrate Antuñano",
+          "is_self": false
+        },
+        {
+          "name": "Shinji Mizumoto",
+          "is_self": false
+        },
+        {
+          "name": "Rob Bullen",
+          "is_self": false
+        },
+        {
+          "name": "John H. ROGERS",
+          "is_self": false
+        }
+      ],
+      "title": "The JWST-Jupiter 2026 Campaign: Stripes, Vortices, and Auroras",
+      "year": 2026,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2026-248"
+    },
+    {
+      "authors": [
+        {
+          "name": "Miguel Ángel Gamonal",
+          "is_self": false
+        },
+        {
+          "name": "Miguel Angel Lopez-Valverde",
+          "is_self": false
+        },
+        {
+          "name": "Adrián Brines",
+          "is_self": false
+        },
+        {
+          "name": "Aurélien Stolzenbach",
+          "is_self": false
+        },
+        {
+          "name": "Ashimananda Modak",
+          "is_self": false
+        },
+        {
+          "name": "B. Funke",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Juan Alday",
+          "is_self": false
+        },
+        {
+          "name": "Ian Richard Thomas",
+          "is_self": false
+        },
+        {
+          "name": "Manish  R. Patel",
+          "is_self": false
+        },
+        {
+          "name": "G. Bellucci",
+          "is_self": false
+        },
+        {
+          "name": "Frank W. Daerden",
+          "is_self": false
+        },
+        {
+          "name": "Bojan Ristic",
+          "is_self": false
+        },
+        {
+          "name": "Zachary Flimon",
+          "is_self": false
+        }
+      ],
+      "title": "A 3.5 full Martian Years dust and water ice climatology from Nomad-SO/TGO observations",
+      "year": 2026,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2026-699"
+    },
+    {
+      "authors": [
+        {
+          "name": "Simon Toogood",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Francesco Biagiotti",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        }
+      ],
+      "title": "Distribution of Jovian South Polar Aerosols in the Near-Infrared with JWST/NIRSpec IFU",
+      "year": 2026,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2026-933"
+    },
+    {
+      "authors": [
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "Isabelle Couturier-Tamburelli",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Thomas Gautier",
+          "is_self": false
+        },
+        {
+          "name": "R. Moreno",
+          "is_self": false
+        },
+        {
+          "name": "Jennifer Anna Noble",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "Benjamin Benne",
+          "is_self": false
+        },
+        {
+          "name": "Bilal Benmahi",
+          "is_self": false
+        },
+        {
+          "name": "Sandrine Guerlet",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        }
+      ],
+      "title": "Understanding Jupiter’s polar Atmosphere & the Fate of the AeRosols (JAFAR)",
+      "year": 2026,
+      "venue": "",
+      "url": "https://doi.org/10.5194/egusphere-egu26-14661"
+    },
+    {
+      "authors": [
+        {
+          "name": "Francesco Biagiotti",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "D. Grassi",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Giuseppe Piccioni",
+          "is_self": false
+        },
+        {
+          "name": "A. Mura",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "M.H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "O. King",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Simon Toogood",
+          "is_self": false
+        },
+        {
+          "name": "P. G. J. Irwin",
+          "is_self": false
+        },
+        {
+          "name": "F. Tosi",
+          "is_self": false
+        },
+        {
+          "name": "A. Adriani",
+          "is_self": false
+        },
+        {
+          "name": "Giuseppe Sindoni",
+          "is_self": false
+        },
+        {
+          "name": "Christina Plainaki",
+          "is_self": false
+        },
+        {
+          "name": "R. Sordini",
+          "is_self": false
+        },
+        {
+          "name": "R. Noschese",
+          "is_self": false
+        },
+        {
+          "name": "A. Cicchetti",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "G. L. Bjoraker",
+          "is_self": false
+        },
+        {
+          "name": "S. Levin",
+          "is_self": false
+        },
+        {
+          "name": "Cheng Li",
+          "is_self": false
+        },
+        {
+          "name": "S. J. Bolton",
+          "is_self": false
+        }
+      ],
+      "title": "Machine learning spectral clustering techniques: Application to Jovian clouds from Juno/JIRAM and JWST/NIRSpec",
+      "year": 2025,
+      "venue": "Astronomy and Astrophysics",
+      "url": "https://doi.org/10.1051/0004-6361/202554552"
+    },
+    {
+      "authors": [
+        {
+          "name": "Simon Toogood",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Francesco Biagiotti",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        }
+      ],
+      "title": "JWST/NIRSpec IFU Observations of Jupiter’s South Pole: Vertical and Latitudinal Structure of Aerosols in the Near-Infrared",
+      "year": 2025,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc-dps2025-820"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "M. Dobrijévic",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Camille Lefour",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "Bilal Benmahi",
+          "is_self": false
+        },
+        {
+          "name": "Simon Toogood",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        }
+      ],
+      "title": "The evolution of comet-impact products in Jupiter’s atmosphere using JWST-MIRI observations",
+      "year": 2025,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc-dps2025-447"
+    },
+    {
+      "authors": [
+        {
+          "name": "Arrate Antuñano",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez-Lavega",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        }
+      ],
+      "title": "Filamentary structures in Jupiter’s polar regions",
+      "year": 2025,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc-dps2025-1275"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Miguel Angel Lopez-Valverde",
+          "is_self": false
+        },
+        {
+          "name": "Ashimananda Modak",
+          "is_self": false
+        },
+        {
+          "name": "Francisco González‐Galindo",
+          "is_self": false
+        },
+        {
+          "name": "Adrián Brines",
+          "is_self": false
+        },
+        {
+          "name": "Alexander Trokhimoskiy",
+          "is_self": false
+        },
+        {
+          "name": "Denis A. Belyaev",
+          "is_self": false
+        },
+        {
+          "name": "Kevin Sutherland Olsen",
+          "is_self": false
+        },
+        {
+          "name": "Franck Montmessin",
+          "is_self": false
+        },
+        {
+          "name": "Lucio Baggio",
+          "is_self": false
+        },
+        {
+          "name": "Anna Fedorova",
+          "is_self": false
+        },
+        {
+          "name": "Oleg Korablev",
+          "is_self": false
+        },
+        {
+          "name": "Frank W. Daerden",
+          "is_self": false
+        },
+        {
+          "name": "Ian Richard Thomas",
+          "is_self": false
+        },
+        {
+          "name": "Ann Carine Vandaele",
+          "is_self": false
+        },
+        {
+          "name": "Manish  R. Patel",
+          "is_self": false
+        },
+        {
+          "name": "G. Bellucci",
+          "is_self": false
+        },
+        {
+          "name": "Acs teams",
+          "is_self": false
+        }
+      ],
+      "title": "Martian CO vertical distribution combining 3 Martian Years of TGO/ACS MIR solar occultation data",
+      "year": 2025,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc-dps2025-1177"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Bilal Benmahi",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        }
+      ],
+      "title": "JWST observations of exogenic species on Jupiter: HCN, H2O, and CO2",
+      "year": 2025,
+      "venue": "Astronomy and Astrophysics",
+      "url": "https://doi.org/10.1051/0004-6361/202453575"
+    },
+    {
+      "authors": [
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Arrate Antuñano",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez-Lavega",
+          "is_self": false
+        },
+        {
+          "name": "Mikel Sanchez Arregui",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "John Stansberry",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        }
+      ],
+      "title": "The multiple layers of Jupiter’s troposphere observed by the NIRCAM instrument in the James Webb Space Telescope",
+      "year": 2025,
+      "venue": "",
+      "url": "https://doi.org/10.5194/egusphere-egu25-18631"
+    },
+    {
+      "authors": [
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "T. K. Greathouse",
+          "is_self": false
+        },
+        {
+          "name": "Rohini Giles",
+          "is_self": false
+        },
+        {
+          "name": "Matthew J. Richter",
+          "is_self": false
+        },
+        {
+          "name": "Maisie Rashman",
+          "is_self": false
+        },
+        {
+          "name": "Curtis N. DeWitt",
+          "is_self": false
+        },
+        {
+          "name": "Julianne I. Moses",
+          "is_self": false
+        },
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Ananyo Bhattacharya",
+          "is_self": false
+        },
+        {
+          "name": "Bilal Benmahi",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "P. G. J. Irwin",
+          "is_self": false
+        }
+      ],
+      "title": "Improved Constraints on the Vertical Profile of CH4 at Jupiter’s Mid- to High Latitudes, Using IRTF-TEXES and SOFIA-EXES Spectroscopy",
+      "year": 2025,
+      "venue": "The Planetary Science Journal",
+      "url": "https://doi.org/10.3847/psj/ad9d42"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        }
+      ],
+      "title": "Study of Jupiter's atmosphere with the first data from JWST",
+      "year": 2024,
+      "venue": "",
+      "url": "https://doi.org/10.70675/70922659z09fcz436bzbdeez8790d3d758bd"
+    },
+    {
+      "authors": [
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "Xi Zhang",
+          "is_self": false
+        },
+        {
+          "name": "Bilal Benmahi",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Rohini Giles",
+          "is_self": false
+        },
+        {
+          "name": "Tom Stallard",
+          "is_self": false
+        },
+        {
+          "name": "R. E. Johnson",
+          "is_self": false
+        },
+        {
+          "name": "M. Dobrijévic",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "T. K. Greathouse",
+          "is_self": false
+        },
+        {
+          "name": "Denis C. Grodent",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Olivier J. Mousis",
+          "is_self": false
+        },
+        {
+          "name": "Conor A. Nixon",
+          "is_self": false
+        }
+      ],
+      "title": "The Polar Stratosphere of Jupiter",
+      "year": 2024,
+      "venue": "Space Science Reviews",
+      "url": "https://doi.org/10.1007/s11214-024-01119-5"
+    },
+    {
+      "authors": [
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "is_self": false
+        },
+        {
+          "name": "Olivier Poch",
+          "is_self": false
+        },
+        {
+          "name": "François Leblanc",
+          "is_self": false
+        },
+        {
+          "name": "Vladimir V. Zakharov",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "É. Quirico",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Lorenz Roth",
+          "is_self": false
+        },
+        {
+          "name": "F. Merlin",
+          "is_self": false
+        },
+        {
+          "name": "Stefan Duling",
+          "is_self": false
+        },
+        {
+          "name": "Joachim Saur",
+          "is_self": false
+        },
+        {
+          "name": "Adrien Masson",
+          "is_self": false
+        },
+        {
+          "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "Samantha K. Trumbo",
+          "is_self": false
+        },
+        {
+          "name": "Michael Ewart Brown",
+          "is_self": false
+        },
+        {
+          "name": "Richard Cartwright",
+          "is_self": false
+        },
+        {
+          "name": "Stéphanie M. Cazaux",
+          "is_self": false
+        },
+        {
+          "name": "Katherine de Kleer",
+          "is_self": false
+        },
+        {
+          "name": "N. Leigh Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Zachariah Milby",
+          "is_self": false
+        },
+        {
+          "name": "Audrey Moingeon",
+          "is_self": false
+        },
+        {
+          "name": "A. Mura",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Bernard Schmitt",
+          "is_self": false
+        },
+        {
+          "name": "F. Tosi",
+          "is_self": false
+        },
+        {
+          "name": "H. Michael Wong",
+          "is_self": false
+        }
+      ],
+      "title": "A patchy CO2 exosphere on Ganymede revealed by the James Webb Space Telescope",
+      "year": 2024,
+      "venue": "Astronomy and Astrophysics",
+      "url": "https://doi.org/10.1051/0004-6361/202451599"
+    },
+    {
+      "authors": [
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "Heidi B. Hammel",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez‐Lavega",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Stefanie N. Milam",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Katherine de Kleer",
+          "is_self": false
+        },
+        {
+          "name": "P. G. J. Irwin",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "Mark R. Showalter",
+          "is_self": false
+        }
+      ],
+      "title": "The Thermal Structure and Composition of Jupiter's Great Red Spot From JWST/MIRI",
+      "year": 2024,
+      "venue": "Journal of Geophysical Research Planets",
+      "url": "https://doi.org/10.1029/2024je008415"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Sandrine Guerlet",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Sandrine Vinatier",
+          "is_self": false
+        },
+        {
+          "name": "M. López‐Puertas",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Heidi B. Hammel",
+          "is_self": false
+        },
+        {
+          "name": "Stefanie N. Milam",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        }
+      ],
+      "title": "Stratospheric aerosols and C6H6 in Jupiter’s south polar region from JWST/MIRI observations",
+      "year": 2024,
+      "venue": "Astronomy and Astrophysics",
+      "url": "https://doi.org/10.1051/0004-6361/202451453"
+    },
+    {
+      "authors": [
+        {
+          "name": "Audrey Moingeon",
+          "is_self": false
+        },
+        {
+          "name": "É. Quirico",
+          "is_self": false
+        },
+        {
+          "name": "Olivier Poch",
+          "is_self": false
+        },
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "François Leblanc",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Bernard Schmitt",
+          "is_self": false
+        },
+        {
+          "name": "Vladimir V. Zakharov",
+          "is_self": false
+        }
+      ],
+      "title": "Where should amorphous water ice be observed on Ganymede?",
+      "year": 2024,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2024-926"
+    },
+    {
+      "authors": [
+        {
+          "name": "Arrate Antuñano",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez-Lavega",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Tom Stallard",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        }
+      ],
+      "title": "JWST/NIRCAM views of Jupiter's polar regions",
+      "year": 2024,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2024-808"
+    },
+    {
+      "authors": [
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Francesco Biagiotti",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "A. Mura",
+          "is_self": false
+        },
+        {
+          "name": "D. Grassi",
+          "is_self": false
+        },
+        {
+          "name": "Giuseppe Piccioni",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "P. G. J. Irwin",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Pat Fry",
+          "is_self": false
+        },
+        {
+          "name": "Gordy Bjoraker",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        }
+      ],
+      "title": "Structure of Jupiter's Great Red Spot and South Polar Domain from JWST/NIRSpec and Juno/JIRAM",
+      "year": 2024,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2024-801"
+    },
+    {
+      "authors": [
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "Heidi B. Hammel",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez-Lavega",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Stefanie N. Milam",
+          "is_self": false
+        },
+        {
+          "name": "Stefanie N. Milam",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Katherine de Kleer",
+          "is_self": false
+        },
+        {
+          "name": "P. G. J. Irwin",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "Mark R. Showalter",
+          "is_self": false
+        }
+      ],
+      "title": "The Vertical Aerosol Structure of Jupiter’s Great Red Spot from JWST/MIRI 5 - 7 µm Spectroscopy",
+      "year": 2024,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2024-479"
+    },
+    {
+      "authors": [
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "Xi Zhang",
+          "is_self": false
+        },
+        {
+          "name": "Bilal Benmahi",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Rohini Giles",
+          "is_self": false
+        },
+        {
+          "name": "Tom Stallard",
+          "is_self": false
+        },
+        {
+          "name": "R. E. Johnson",
+          "is_self": false
+        },
+        {
+          "name": "M. Dobrijévic",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "T. K. Greathouse",
+          "is_self": false
+        },
+        {
+          "name": "Denis C. Grodent",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Olivier J. Mousis",
+          "is_self": false
+        },
+        {
+          "name": "Conor A. Nixon",
+          "is_self": false
+        }
+      ],
+      "title": "The Polar Stratosphere of Jupiter",
+      "year": 2024,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2024-512"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Sandrine Guerlet",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "M. López‐Puertas",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez‐Lavega",
+          "is_self": false
+        },
+        {
+          "name": "Tom Stallard",
+          "is_self": false
+        },
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        }
+      ],
+      "title": "Temperature and Composition Disturbances in the Southern Auroral Region of Jupiter Revealed by JWST/MIRI",
+      "year": 2024,
+      "venue": "Journal of Geophysical Research Planets",
+      "url": "https://doi.org/10.1029/2024je008299"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Alberto Mendi-Martos",
+          "is_self": false
+        },
+        {
+          "name": "Ainhoa Angulo",
+          "is_self": false
+        },
+        {
+          "name": "Iván Reyes‐Rodríguez",
+          "is_self": false
+        },
+        {
+          "name": "M. Pérez-Arrieta",
+          "is_self": false
+        },
+        {
+          "name": "M. A. Illarramendi",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez-Lavega",
+          "is_self": false
+        }
+      ],
+      "title": "Practical study of optical stellar interferometry",
+      "year": 2023,
+      "venue": "American Journal of Physics",
+      "url": "https://doi.org/10.1119/5.0125446"
+    },
+    {
+      "authors": [
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "Olivier Poch",
+          "is_self": false
+        },
+        {
+          "name": "É. Quirico",
+          "is_self": false
+        },
+        {
+          "name": "Stéphanie M. Cazaux",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "F. Tosi",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "I. Boshuizen",
+          "is_self": false
+        },
+        {
+          "name": "Katherine de Kleer",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "L. Meunier",
+          "is_self": false
+        },
+        {
+          "name": "A. Mura",
+          "is_self": false
+        },
+        {
+          "name": "Lorenz Roth",
+          "is_self": false
+        },
+        {
+          "name": "Joachim Saur",
+          "is_self": false
+        },
+        {
+          "name": "Bernard Schmitt",
+          "is_self": false
+        },
+        {
+          "name": "Samantha K. Trumbo",
+          "is_self": false
+        },
+        {
+          "name": "Michael Ewart Brown",
+          "is_self": false
+        },
+        {
+          "name": "James O’Donoghue",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Mark R. Showalter",
+          "is_self": false
+        }
+      ],
+      "title": "Composition and thermal properties of Ganymede’s surface from JWST/NIRSpec and MIRI observations",
+      "year": 2023,
+      "venue": "Astronomy and Astrophysics",
+      "url": "https://doi.org/10.1051/0004-6361/202347326"
+    },
+    {
+      "authors": [
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "Olivier Poch",
+          "is_self": false
+        },
+        {
+          "name": "É. Quirico",
+          "is_self": false
+        },
+        {
+          "name": "Stéphanie M. Cazaux",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "F. Tosi",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "I. Boshuizen",
+          "is_self": false
+        },
+        {
+          "name": "Katherine de Kleer",
+          "is_self": false
+        },
+        {
+          "name": "L. N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Meunier, L.",
+          "is_self": false
+        },
+        {
+          "name": "A. Mura",
+          "is_self": false
+        },
+        {
+          "name": "Lorenz Roth",
+          "is_self": false
+        },
+        {
+          "name": "Joachim Saur",
+          "is_self": false
+        },
+        {
+          "name": "Bernard Schmitt",
+          "is_self": false
+        },
+        {
+          "name": "Samantha K. Trumbo",
+          "is_self": false
+        },
+        {
+          "name": "M. E. Brown",
+          "is_self": false
+        },
+        {
+          "name": "James O’Donoghue",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Mark R. Showalter",
+          "is_self": false
+        }
+      ],
+      "title": "Composition and thermal properties of Ganymede's surface from JWST/NIRSpec and MIRI observations",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.2310.13982"
+    },
+    {
+      "authors": [
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez-Lavega",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Arrate Antuñano",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Lawrence A. Sromovsky",
+          "is_self": false
+        },
+        {
+          "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Sandrine Guerlet",
+          "is_self": false
+        },
+        {
+          "name": "P. G. J. Irwin",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Katherine de Kleer",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Amy A. Simon",
+          "is_self": false
+        },
+        {
+          "name": "Statia Luszcz‐Cook",
+          "is_self": false
+        },
+        {
+          "name": "Kunio M. Sayanagi",
+          "is_self": false
+        }
+      ],
+      "title": "An intense narrow equatorial jet in Jupiter’s lower stratosphere observed by JWST",
+      "year": 2023,
+      "venue": "Nature Astronomy",
+      "url": "https://doi.org/10.1038/s41550-023-02099-2"
+    },
+    {
+      "authors": [
+        {
+          "name": "Samantha K. Trumbo",
+          "is_self": false
+        },
+        {
+          "name": "Michael Ewart Brown",
+          "is_self": false
+        },
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Stéphanie M. Cazaux",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Katherine de Kleer",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "A. Mura",
+          "is_self": false
+        },
+        {
+          "name": "Olivier Poch",
+          "is_self": false
+        },
+        {
+          "name": "É. Quirico",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Mark R. Showalter",
+          "is_self": false
+        },
+        {
+          "name": "Matthew S. Tiscareno",
+          "is_self": false
+        },
+        {
+          "name": "F. Tosi",
+          "is_self": false
+        }
+      ],
+      "title": "Hydrogen peroxide at the poles of Ganymede",
+      "year": 2023,
+      "venue": "Science Advances",
+      "url": "https://doi.org/10.1126/sciadv.adg3724"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "M. López‐Puertas",
+          "is_self": false
+        },
+        {
+          "name": "Prisca Briens",
+          "is_self": false
+        },
+        {
+          "name": "James Sinclair",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Michael H. Wong",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "Mike Roman",
+          "is_self": false
+        },
+        {
+          "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Henrik Melin",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        }
+      ],
+      "title": "Mid Infrared analysis of Jupiter South Pole from JWST MIRI-MRS observations: Thermo-chemical disturbances caused by auroral activity",
+      "year": 2023,
+      "venue": "",
+      "url": "https://doi.org/10.5194/egusphere-egu23-12471"
+    },
+    {
+      "authors": [
+        {
+          "name": "Itziar Gárate-López",
+          "is_self": false
+        },
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Paula Fernandez-Urrutia",
+          "is_self": false
+        }
+      ],
+      "title": "Delving deeper into Venus’ South Polar Vortex’s dynamics with VIRTIS-VEx observations",
+      "year": 2022,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2022-387"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Itziar Gárate-López",
+          "is_self": false
+        }
+      ],
+      "title": "More on the dynamics of Venus’ South Polar Vortex from VIRTIS-VEx observations",
+      "year": 2021,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2021-552"
+    }
+  ]
 }
