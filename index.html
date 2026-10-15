@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal academic website of a planetary-atmospheres researcher working on giant planets and Mars." />
-  <title>Pablo Rodríguez Ovalle | Planetary Atmospheres</title>
+  <meta name="description" content="Personal academic website of Dr. Pablo Rodríguez Ovalle, an astrophysicist in planetary science working on giant planets and Mars." />
+  <title>Dr. Pablo Rodríguez Ovalle | Astrophysicist in Planetary Science</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 </head>
@@ -14,7 +14,7 @@
     <a href="#home" class="brand" aria-label="Go to homepage">PRO<span class="brand-dot">.</span></a>
     <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">☰</button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="#about">About me</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#teaching">Teaching</a><a href="#employment">Employment</a><a href="#outreach">Outreach</a><a href="#contact">Contact</a>
+      <a href="#about">About me</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#teaching">Teaching</a><a href="#employment">Employment</a><a href="#outreach">Outreach</a><a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -23,20 +23,26 @@
       <div class="hero-photo" aria-hidden="true"></div>
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-content wrap">
-        <p class="eyebrow hero-eyebrow">ASTROPHYSICS · PLANETARY SCIENCE · NATURE</p>
-        <h1>Pablo Rodríguez Ovalle<span class="accent">.</span></h1>
-        <p class="hero-subtitle">Planetary Atmospheres · Giant Planets · Mars</p>
-        <p class="hero-intro">I study the atmospheres of different planets in the Solar System.</p>
+        <p class="eyebrow hero-eyebrow">ASTROPHYSICIST IN PLANETARY SCIENCE</p>
+        <h1>Dr. Pablo Rodríguez Ovalle<span class="accent">.</span></h1>
+        <p class="hero-subtitle">Planetary science · Giant planets · Mars</p>
+        <p class="hero-intro">I study the atmospheres of planets in the Solar System.</p>
         <a class="button button-light" href="#about">Explore my work <span aria-hidden="true">↗</span></a>
       </div>
       <a href="#about" class="scroll-hint">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
     </section>
 
     <section id="about" class="section about-section">
-      <div class="wrap split-layout">
-        <div class="reveal"><p class="eyebrow">01 / INTRODUCTION</p><h2>Hello, I'm<br /><em>Pablo Rodríguez Ovalle.</em></h2></div>
+      <div class="wrap about-grid">
+        <div class="about-intro reveal">
+          <p class="eyebrow">01 / INTRODUCTION</p>
+          <h2>Hello, I'm<br /><em>Dr. Pablo Rodríguez Ovalle.</em></h2>
+          <figure class="about-portrait">
+            <img src="assets/photo-pablo-egypt.jpg" alt="Portrait of Dr. Pablo Rodríguez Ovalle outdoors, with the pyramids in the background" loading="lazy" />
+          </figure>
+        </div>
         <div class="about-copy reveal">
-          <p class="lead">I am an astrophysicist studying the atmospheres of planets in the Solar System, with a focus on giant planets and Mars.</p>
+          <p class="lead">I am an astrophysicist in planetary science studying the atmospheres of planets in the Solar System, with a focus on giant planets and Mars.</p>
           <p>My research is based on near- and mid-infrared spectroscopy. I investigate the thermal structure, composition and variability of the middle and upper atmospheres, including the effects of auroral particle precipitation on giant planets.</p>
           <p>I analyse observations from JWST and ExoMars TGO, using radiative-transfer modelling to retrieve atmospheric properties and interpret the physical processes recorded in their spectra.</p>
           <div class="link-row"><a href="https://orcid.org/0000-0003-2594-2128" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://www.linkedin.com/in/pablo-rodr%C3%ADguez-ovalle-245a7b1a9/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="mailto:povalle@iaa.es">Email ↗</a></div>
@@ -68,12 +74,9 @@
           </article>
           <article class="info-card reveal">
             <figure class="research-card-media methods-image">
-<img
-  src="assets/nonLTE_jupiter.png"
-  alt="Infrared observations of Jupiter showing atmospheric emission and non-LTE effects"
-  loading="lazy"
-/>
-  <figcaption>JWST/MIRI observations of Jupiter · Non-LTE emission</figcaption></figure>
+              <img src="assets/nonLTE_jupiter.png" alt="Infrared observations of Jupiter showing atmospheric emission and non-LTE effects" loading="lazy" />
+              <figcaption>JWST/MIRI observations of Jupiter · Non-LTE emission</figcaption>
+            </figure>
             <div class="research-card-body"><span class="card-number">03 — METHODS</span><h3>Methods</h3>
             <p>I analyse near- and mid-infrared spectra using radiative-transfer methods under local thermodynamic equilibrium (LTE) and non-LTE conditions.</p>
             <p>My work combines forward spectral modelling, atmospheric retrievals and careful treatment of instrumental effects to constrain thermal profiles and molecular abundances from observations.</p>
@@ -83,11 +86,78 @@
       </div>
     </section>
 
+    <section id="projects" class="section projects-section">
+      <div class="wrap">
+        <p class="eyebrow reveal">03 / PROJECTS</p>
+        <div class="section-heading reveal"><h2>Research <em>projects.</em></h2><p>Past and current projects. Ongoing activities are marked as active.</p></div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-type">JWST ERS</span></div>
+            <h3>ERS 1373</h3>
+            <p class="project-meta">PI Imke de Pater and Thierry Fouchet</p>
+            <p>Analysis of the Jovian system from the first JWST data. I worked on the data reduction and cleaning of MIRI, NIRSpec and NIRCam observations for Jupiter and its moons, and I led the MIRI/MRS analysis of the south polar region to study the impact of auroral precipitation on the atmosphere.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-type">ANR</span></div>
+            <h3>ANR PRESSE</h3>
+            <p class="project-meta">PI Thierry Fouchet</p>
+            <p>I was part of this ANR project, which aimed to analyse the ERS 1373 data set and prepare the French science community for future JWST observations of the Solar System.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-type">JWST Cycle 2</span></div>
+            <h3>GJ504 b is really cool</h3>
+            <p class="project-meta">PI Polychronis Patapis</p>
+            <p>Part of the team studying the exoplanet GJ504 b using MIRI/MRS through direct imaging observations.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-type">JWST Cycle 4</span></div>
+            <h3>Jupiter belts and zones</h3>
+            <p class="project-meta">PI Leigh Fletcher</p>
+            <p>Study of the tropospheric structure of Jupiter using MIRI/MRS.</p>
+          </article>
+
+          <article class="project-card active reveal">
+            <div class="project-card-top"><span class="project-type">JWST Cycle 4</span><span class="status-badge">ACTIVE</span></div>
+            <h3>Jupiter exogenic molecules</h3>
+            <p class="project-meta">PI Pablo Rodríguez Ovalle</p>
+            <p>Study of the evolution of exogenic molecules using MIRI/MRS, and their interaction with charged particles in the auroral regions.</p>
+          </article>
+
+          <article class="project-card active reveal with-logo">
+            <div class="project-card-top"><span class="project-type">ANR</span><span class="status-badge">ACTIVE</span></div>
+            <div class="project-logo"><img src="assets/logo-jafar.png" alt="JAFAR project logo" loading="lazy"></div>
+            <h3>ANR JAFAR</h3>
+            <p class="project-meta">PI Vincent Hue</p>
+            <p>Preparing the scientific community for the arrival of JUICE in the 2030s by improving our knowledge of Jupiter's chemical inventory.</p>
+          </article>
+
+          <article class="project-card active reveal with-logo">
+            <div class="project-card-top"><span class="project-type">Mission team</span><span class="status-badge">ACTIVE</span></div>
+            <div class="project-logo"><img src="assets/logo-exomars-team.jpg" alt="ExoMars team logo" loading="lazy"></div>
+            <h3>TGO NOMAD/ACS Team</h3>
+            <p class="project-meta">Ongoing collaboration</p>
+            <p>I am part of the TGO team working on the analysis of trace gases in the Martian atmosphere and participating in the development of future missions.</p>
+          </article>
+
+          <article class="project-card active reveal with-logo">
+            <div class="project-card-top"><span class="project-type">Comparative planets</span><span class="status-badge">ACTIVE</span></div>
+            <div class="project-logo"><img src="assets/logo-flamenco.png" alt="FLAMENCO project logo" loading="lazy"></div>
+            <h3>FLAMENCO</h3>
+            <p class="project-meta">PI Pablo Rodríguez Ovalle</p>
+            <p>A project focused on the CH<sub>4</sub> ν<sub>3</sub> band in the four giant planets, aiming to infer their homopause altitude and precisely retrieve the vertical distribution of methane using JWST/NIRSpec.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="image-break" aria-label="Visual pause"><div class="image-break-overlay"><p class="wrap reveal">Planetary atmospheres<br /><em>and infrared spectroscopy.</em></p></div></section>
 
     <section id="publications" class="section pale-section">
       <div class="wrap">
-        <p class="eyebrow reveal">03 / PUBLICATIONS</p>
+        <p class="eyebrow reveal">04 / PUBLICATIONS</p>
         <div class="section-heading reveal"><h2>Research <em>publications.</em></h2><p>Publications matched to my <a class="underlined" href="https://orcid.org/0000-0003-2594-2128" target="_blank" rel="noopener noreferrer">ORCID profile ↗</a>, refreshed daily via OpenAlex.</p></div>
         <div id="publication-list" class="publication-list" aria-live="polite"><p class="pub-status">Loading publications…</p></div>
         <p id="publication-note" class="footnote">View my <a class="underlined" href="https://orcid.org/0000-0003-2594-2128" target="_blank" rel="noopener noreferrer">complete ORCID record ↗</a>. The list is generated from OpenAlex and may differ from works listed directly in ORCID.</p>
@@ -96,7 +166,7 @@
 
     <section id="teaching" class="section teaching-section">
       <div class="wrap">
-        <p class="eyebrow reveal">04 / TEACHING &amp; SUPERVISION</p>
+        <p class="eyebrow reveal">05 / TEACHING &amp; SUPERVISION</p>
         <div class="section-heading reveal">
           <h2>Teaching &amp; <em>mentoring.</em></h2>
           <p>I also dedicate part of my work to teaching and mentoring future researchers, including the supervision of Master's students.</p>
@@ -136,12 +206,12 @@
 
     <section id="employment" class="section dark-section experience-section">
       <div class="wrap">
-        <p class="eyebrow reveal">05 / EXPERIENCE</p>
+        <p class="eyebrow reveal">06 / EXPERIENCE</p>
         <div class="section-heading reveal"><h2>Academic <em>experience.</em></h2><p>Research positions and academic training.</p></div>
         <div class="timeline">
           <article class="timeline-item reveal">
             <span class="experience-dates">Sep 2026 – Sep 2028</span>
-            <div class="experience-details"><h3>Postdoctoral researcher</h3><p class="experience-org">Instituto de Astrofísica de Andalucía (IAA-CSIC)</p><p>Research on trace species in the Martian atmosphere using ExoMars TGO, alongside studies of giant-planet atmospheres with JWST.</p><div class="experience-logos"><a href="https://www.iaa.csic.es/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-iaa-csic.png" alt="IAA-CSIC" loading="lazy"></a></div></div>
+            <div class="experience-details"><h3>Postdoctoral researcher</h3><p class="experience-org">Instituto de Astrofísica de Andalucía (IAA-CSIC)</p><p>Research on trace species in the Martian atmosphere using ExoMars TGO, together with studies of giant-planet atmospheres using JWST.</p><div class="experience-logos"><a href="https://www.iaa.csic.es/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-iaa-csic.png" alt="IAA-CSIC" loading="lazy"></a></div></div>
           </article>
           <article class="timeline-item reveal">
             <span class="experience-dates">Mar 2025 – Sep 2026</span>
@@ -149,19 +219,20 @@
           </article>
           <article class="timeline-item reveal">
             <span class="experience-dates">Sep 2021 – Dec 2024</span>
-            <div class="experience-details"><h3>PhD researcher</h3><p class="experience-org">Observatoire de Paris – PSL / Université Paris Cité</p><p>PhD thesis: “Study of Jupiter’s atmosphere with the first data from JWST”. Supervisor: Thierry Fouchet.</p><div class="experience-logos"><a href="https://observatoiredeparis.psl.eu/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-observatoire.png" alt="Observatoire de Paris – PSL" loading="lazy"></a><a href="https://u-paris.fr/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-paris-cite.jpg" alt="Université Paris Cité" loading="lazy"></a><a href="https://psl.eu/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-psl.png" alt="Université PSL" loading="lazy"></a></div></div>
+            <div class="experience-details"><h3>PhD researcher</h3><p class="experience-org">Observatoire de Paris – PSL / Université Paris Cité</p><p>PhD thesis: “Study of Jupiter's atmosphere with the first data from JWST”. Conducted at the Observatoire de Paris under the supervision of Thierry Fouchet and in association with Université Paris Cité.</p><div class="experience-logos"><a href="https://observatoiredeparis.psl.eu/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-observatoire.png" alt="Observatoire de Paris – PSL" loading="lazy"></a><a href="https://u-paris.fr/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-paris-cite.jpg" alt="Université Paris Cité" loading="lazy"></a><a href="https://psl.eu/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-psl.png" alt="Université PSL" loading="lazy"></a></div></div>
           </article>
           <article class="timeline-item reveal">
             <span class="experience-dates">Jan 2021 – Sep 2021</span>
-            <div class="experience-details"><h3>Master’s thesis researcher</h3><p class="experience-org">Planetary Sciences Group · University of the Basque Country (UPV/EHU)</p><p>Master’s thesis research on the dynamics of Venus’s south polar vortex using VIRTIS observations from Venus Express.</p><div class="experience-logos"><a href="https://www.ehu.eus/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-upv-ehu.jpg" alt="UPV/EHU" loading="lazy"></a></div></div>
+            <div class="experience-details"><h3>Master's thesis researcher</h3><p class="experience-org">Planetary Sciences Group · University of the Basque Country (UPV/EHU)</p><p>Master's thesis research on the dynamics of Venus's south polar vortex using Venus Express / VIRTIS data.</p><div class="experience-logos"><a href="https://www.ehu.eus/" target="_blank" rel="noopener noreferrer" class="experience-logo"><img src="assets/logo-upv-ehu.jpg" alt="UPV/EHU" loading="lazy"></a></div></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="outreach" class="section outreach-section"><div class="wrap"><p class="eyebrow reveal">06 / SCIENCE & SOCIETY</p><div class="section-heading reveal"><h2>Beyond the <em>observatory.</em></h2><p>Bringing astronomy and the night sky closer to everyone.</p></div><div class="outreach-grid"><article class="outreach-card reveal"><div class="outreach-art art-one" aria-hidden="true"><span>↗</span></div><p class="eyebrow">PUBLIC ENGAGEMENT</p><h3>Science communication</h3><p>Public talks, popular science writing, and engagement activities.</p></article><article class="outreach-card reveal"><div class="outreach-art art-two" aria-hidden="true"><span>✳</span></div><p class="eyebrow">COMMUNITY</p><h3>Workshops & events</h3><p>Interactive activities, collaborations, and community initiatives.</p></article></div></div></section>
+    <section id="outreach" class="section outreach-section"><div class="wrap"><p class="eyebrow reveal">07 / SCIENCE & SOCIETY</p><div class="section-heading reveal"><h2>Beyond the <em>observatory.</em></h2><p>Bringing astronomy and the night sky closer to everyone.</p></div><div class="outreach-grid"><article class="outreach-card reveal"><div class="outreach-art art-one" aria-hidden="true"><span>↗</span></div><p class="eyebrow">PUBLIC ENGAGEMENT</p><h3>Science communication</h3><p>Public talks, popular science writing, and engagement activities.</p></article><article class="outreach-card reveal"><div class="outreach-art art-two" aria-hidden="true"><span>✳</span></div><p class="eyebrow">COMMUNITY</p><h3>Workshops & events</h3><p>Interactive activities, collaborations, and community initiatives.</p></article></div></div></section>
 
-    <section id="contact" class="section contact-section"><div class="wrap contact-content reveal"><p class="eyebrow">07 / GET IN TOUCH</p><h2>Contact <em>information.</em></h2><p>For research collaborations, teaching or outreach inquiries, please contact me.</p><div class="contact-links"><a href="mailto:povalle@iaa.es">povalle@iaa.es ↗</a><a href="https://orcid.org/0000-0003-2594-2128" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://www.linkedin.com/in/pablo-rodr%C3%ADguez-ovalle-245a7b1a9/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div></section>
+    <section id="contact" class="section contact-section"><div class="wrap contact-content reveal"><p class="eyebrow">08 / GET IN TOUCH</p><h2>Contact <em>information.</em></h2><p>For research collaborations, teaching or outreach inquiries, please contact me.</p><div class="contact-links"><a href="mailto:povalle@iaa.es">povalle@iaa.es ↗</a><a href="https://orcid.org/0000-0003-2594-2128" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://www.linkedin.com/in/pablo-rodr%C3%ADguez-ovalle-245a7b1a9/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div></section>
   </main>
   <footer class="site-footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Pablo Rodríguez Ovalle</span><span><a href="#top">Back to top ↑</a></span></div></footer>
 </body>
+</html>

@@ -1,11 +1,18 @@
-# Academic website — Version 6
+# Pablo Rodríguez Ovalle Website — V7
 
-## Upload to GitHub Pages
+This version adds:
+- Updated hero with Dr. Pablo Rodríguez Ovalle and astrophysicist in planetary science positioning
+- Portrait photo in the About section
+- New Projects section with active project badges
+- Additional project logos: JAFAR, ExoMars team, FLAMENCO
+- Existing publications sync, teaching, research and experience preserved
 
-Upload **index.html**, **styles.css**, and the **six new logo files** inside `assets/` to your GitHub Pages repository. `script.js` and your existing workflow do not require changes.
+## Files to update in GitHub
+- index.html
+- styles.css
+- assets/logo-jafar.png
+- assets/logo-exomars-team.jpg
+- assets/logo-flamenco.png
+- assets/photo-pablo-egypt.jpg
 
-The archive also contains the full website so you can restore files if needed. **Do not delete or overwrite your existing `publications.json`**, which is generated automatically by GitHub Actions and is intentionally excluded from this package.
-
-New logos: logo-psl.png, logo-sorbonne.png, logo-paris-cite.jpg, logo-observatoire.png, logo-iaa-csic.png, logo-upv-ehu.jpg.
-
-Changes: teaching affiliations with supplied institutional logos, academic timeline with four dated entries and relevant institution logos.
+Do not overwrite publications.json.
