@@ -164,3 +164,28 @@ h2 em,.image-break em{color:#ca8655}
 .project-logo img{display:block;width:auto;height:auto;max-height:126px;max-width:min(100%,170px);object-fit:contain;border-radius:3px}
 @media(max-width:760px){.project-logo img{max-height:112px;max-width:150px}}
 @media(prefers-reduced-motion:reduce){.bio-extra{animation:none}.bio-details summary span{transition:none}}
+
+
+/* V10: circular Saturn and Mars website identity */
+.site-header{padding-top:10px;padding-bottom:10px;min-height:74px}
+.brand-logo{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;line-height:1;letter-spacing:normal}
+.brand-logo img{width:52px;height:52px;object-fit:contain;display:block;filter:drop-shadow(0 2px 5px rgba(0,0,0,.16))}
+.brand-logo:hover img{transform:scale(1.06)}
+.brand-logo img{transition:transform .2s}
+/* Outreach list: simple chronology, no generic placeholder cards */
+.outreach-section{background:#fbf7f0}
+.outreach-list{list-style:none;margin:0;padding:0;border-top:1px solid #d8c8ba}
+.outreach-entry{display:grid;grid-template-columns:minmax(125px,22%) 1fr;gap:24px;padding:26px 8px;border-bottom:1px solid #d8c8ba}
+.outreach-date{font-size:.78rem;font-weight:700;letter-spacing:.09em;color:#af6a43;padding-top:7px}
+.outreach-entry h3{font-family:var(--serif);font-size:clamp(1.15rem,2.15vw,1.62rem);font-weight:400;line-height:1.35;margin:0 0 7px}
+.outreach-entry p{font-size:.94rem;color:var(--muted);margin:0;max-width:740px;line-height:1.7}
+/* Contact: Candín photo, deep overlay and readable semi-transparent glass panel */
+.contact-section{background-image:linear-gradient(100deg,rgba(7,20,32,.75),rgba(7,20,32,.39) 55%,rgba(7,20,32,.62)),url('assets/candin-ancares.jpg');background-color:#192b39;background-size:cover;background-position:center 51%;color:#fff;min-height:630px;display:grid;align-items:center;padding:95px 0}
+.contact-content{width:min(900px,calc(100% - 9vw));background:rgba(12,28,40,.70);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:55px 50px;box-shadow:0 16px 60px rgba(0,0,0,.22);backdrop-filter:blur(5px)}
+.contact-content .eyebrow{color:#eac09b}
+.contact-content h2{font-size:clamp(3rem,6.6vw,6.2rem);color:#fff}
+.contact-content h2 em{color:#f6bd8e}
+.contact-content p:not(.eyebrow){color:#e8edf1}
+.contact-links a{color:#fff;border-bottom-color:#efc6a3}
+.contact-links a:hover{color:#ffcc9b}
+@media(max-width:760px){.site-header{padding:10px 6vw}.brand-logo img{width:46px;height:46px}.outreach-entry{grid-template-columns:1fr;gap:2px;padding:20px 0}.contact-section{background-position:62% center;min-height:540px;padding:75px 0}.contact-content{width:calc(100% - 9vw);padding:38px 22px;backdrop-filter:blur(3px)}.contact-content h2{font-size:clamp(2.65rem,10vw,4.5rem)}}
