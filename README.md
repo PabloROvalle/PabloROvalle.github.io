@@ -21,3 +21,13 @@ Upload the uncompressed contents of this ZIP to the **root** of the `PabloROvall
 **IMPORTANT:** Never delete an existing `publications.json` in the repository. The GitHub Actions workflow `.github/workflows/sync-publications.yml` and `scripts/sync_publications.py` remain as in V11 and create/update the JSON. If the ZIP upload workflow does not preserve hidden `.github`, keep the existing GitHub Actions folder as-is.
 
 After publication, Search Console may take time to discover the eight new pages; submit the updated `sitemap.xml` and optionally request indexing for each page.
+
+
+V13 update: uses the new Ancares sunset image as the top image on Home and all section banners, except Outreach which keeps the previous mountain-sky image.
+
+
+## V14: Dark theme by default
+- Dark theme is active on first visit across all nine pages.
+- Light/Dark toggle is in the site header; it remembers the choice using browser localStorage.
+- To reset the theme on a device, select Dark in the toggle or clear this site's browser storage.
+- HTML, CSS and JS modified; existing assets, SEO and publication sync retained.

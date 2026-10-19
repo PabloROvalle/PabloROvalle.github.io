@@ -32,7 +32,7 @@ h2 em,.image-break em{color:#ca8655}
 /* V2: personal night-sky mountain, terrestrial sunset hues and planetary atmosphere */
 :root{--ink:#192735;--forest:#142439;--sage:#859585;--paper:#faf7f0;--muted:#66717c;--accent:#ed985d}
 .hero{background:#0c1930}
-.hero-photo{background-image:url('assets/mountain-night-sky.png');background-position:center 56%}
+.hero-photo{background-image:url('assets/ancares-sunset-banner.png');background-position:center 45%}
 .hero-shade{background:linear-gradient(90deg,rgba(3,12,29,.74),rgba(3,12,29,.08) 85%),linear-gradient(0deg,rgba(3,12,29,.55),transparent 48%)}
 .hero-eyebrow{color:#ffd2a5}
 .hero h1{font-size:clamp(4.3rem,10vw,10.4rem)}
@@ -196,7 +196,7 @@ h2 em,.image-break em{color:#ca8655}
 body:not(.page-home) .site-header{background:#101e2d;position:sticky;top:0}
 body:not(.page-home) .site-header:not(.scrolled) .site-nav a{color:#f2eee8}
 body:not(.page-home) .site-header .site-nav a[aria-current="page"]{color:#f1b581}
-.page-banner{background:linear-gradient(115deg,#101e2d,#26364a 66%,#533c3c);color:white;padding:100px 0 70px}
+.page-banner{background-image:linear-gradient(180deg,rgba(8,18,34,.42),rgba(8,18,34,.64)),url('assets/ancares-sunset-banner.png');background-size:cover;background-position:center 45%;color:white;padding:118px 0 86px}
 .page-banner-kicker{font-size:.7rem;letter-spacing:.22em;color:#efb88b;margin:0 0 20px;font-weight:650}
 .page-banner h1{font-family:var(--serif);font-weight:400;letter-spacing:-.025em;font-size:clamp(3rem,7vw,6rem);line-height:1.06;margin:0}
 body:not(.page-home) main>.section{padding-top:95px;min-height:55vh}
@@ -211,3 +211,45 @@ body.page-home .hero{min-height:100svh}
 .home-tile p{color:#5f6269;line-height:1.7;margin:0 0 24px}
 .home-tile b{color:#b76d40;font-weight:650;font-size:.83rem;margin-top:auto}
 @media(max-width:760px){.home-tiles{grid-template-columns:1fr}.home-tile{padding:25px}.page-banner{padding:70px 0 52px}body:not(.page-home) main>.section{padding-top:65px}body:not(.page-home) .site-header .site-nav:not(.open){display:none}}
+
+body.page-outreach .page-banner{background-image:linear-gradient(180deg,rgba(8,18,34,.35),rgba(8,18,34,.62)),url('assets/mountain-night-sky.png');background-position:center 58%}
+.page-banner h1,.page-banner-kicker{text-shadow:0 2px 18px rgba(0,0,0,.28)}
+@media(max-width:760px){.page-banner{background-position:58% center;padding:92px 0 64px}body.page-outreach .page-banner{background-position:60% center}.hero-photo{background-position:57% center}}
+
+/* V14: accessible light/dark theme. Dark is the default. */
+:root{color-scheme:dark}
+:root[data-theme="light"]{color-scheme:light}
+.site-nav{margin-left:auto}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex-shrink:0;min-width:92px;padding:8px 11px;margin-left:17px;border:1px solid rgba(255,255,255,.45);border-radius:999px;background:rgba(12,25,40,.24);color:#fff;font-size:.75rem;font-weight:700;cursor:pointer;transition:background .2s,border-color .2s}
+.theme-toggle:hover{background:rgba(255,255,255,.15);border-color:#ffd2a5}
+.site-header.scrolled .theme-toggle{color:#192735;border-color:rgba(25,39,53,.35);background:rgba(25,39,53,.05)}
+body:not(.page-home) .site-header.scrolled .theme-toggle{color:#192735}
+.theme-toggle-icon{font-size:1.02rem;line-height:1}
+@media(max-width:760px){.theme-toggle{margin-left:auto;margin-right:14px;min-width:75px;padding:7px 9px}.site-nav{margin-left:0}.menu-toggle{order:3}.site-nav{order:4}}
+/* Warm midnight blue surfaces, neutral foreground and sunset accents. */
+:root[data-theme="dark"]{--ink:#e9edf1;--forest:#142439;--paper:#0d1726;--muted:#bac4d0;--accent:#f1a46d;--sage:#9eafa9}
+[data-theme="dark"] body{background:#0d1726;color:#e9edf1}
+[data-theme="dark"] .site-header.scrolled{background:rgba(12,24,39,.96);color:#f1f3f5;box-shadow:0 2px 24px rgba(0,0,0,.3)}
+[data-theme="dark"] .site-header.scrolled .theme-toggle{color:#f1f3f5;border-color:rgba(255,255,255,.38);background:rgba(255,255,255,.06)}
+[data-theme="dark"] body:not(.page-home) .site-header.scrolled .theme-toggle{color:#f1f3f5}
+[data-theme="dark"] .site-nav a[aria-current="page"]{color:#ffbb89}
+[data-theme="dark"] .about-section,[data-theme="dark"] .research-section,[data-theme="dark"] .projects-section,[data-theme="dark"] .teaching-section,[data-theme="dark"] .outreach-section,[data-theme="dark"] .home-explore{background:#101e30;color:#e9edf1}
+[data-theme="dark"] .pale-section{background:#132237}
+[data-theme="dark"] .about-copy .lead,[data-theme="dark"] .about-copy p,[data-theme="dark"] .section-heading>p,[data-theme="dark"] .research-summary p{color:#d1d9e3}
+[data-theme="dark"] .info-card,[data-theme="dark"] .research-section .info-card,[data-theme="dark"] .project-card,[data-theme="dark"] .project-card.active,[data-theme="dark"] .teaching-panel,[data-theme="dark"] .home-tile{background:#1c2b3e;color:#e9edf1;border-top-color:#dd9160}
+[data-theme="dark"] .project-card.active{background:linear-gradient(160deg,#273346,#1c2b3e)}
+[data-theme="dark"] .home-tile p,[data-theme="dark"] .info-card p,[data-theme="dark"] .project-card p,[data-theme="dark"] .research-card-body p,[data-theme="dark"] .teaching-intro,[data-theme="dark"] .outreach-entry p{color:#bac4d0}
+[data-theme="dark"] .home-tile>span,[data-theme="dark"] .home-tile b,[data-theme="dark"] .eyebrow,[data-theme="dark"] .project-type,[data-theme="dark"] .project-meta,[data-theme="dark"] .pub-year,[data-theme="dark"] .teaching-panel-kicker,[data-theme="dark"] .outreach-date{color:#f2b28b}
+[data-theme="dark"] h2 em{color:#f1a46d}
+[data-theme="dark"] .institution-wordmark{background:#213248;border-color:#405166;color:#e9edf1}
+[data-theme="dark"] .course-list,[data-theme="dark"] .course-item,[data-theme="dark"] .publication-list,[data-theme="dark"] .publication,[data-theme="dark"] .outreach-list,[data-theme="dark"] .outreach-entry{border-color:#405166}
+[data-theme="dark"] .publication p,[data-theme="dark"] .course-item span,[data-theme="dark"] .mentoring-credit span{color:#b8c3d0}
+[data-theme="dark"] .publication .pub-authors,[data-theme="dark"] .mentoring-thesis{color:#e9edf1}
+[data-theme="dark"] .pub-self,[data-theme="dark"] .publication a.pub-link,[data-theme="dark"] .research-link,[data-theme="dark"] .bio-details summary{color:#f1ad7e}
+[data-theme="dark"] .about-portrait{background:#253449;box-shadow:0 12px 32px rgba(0,0,0,.28)}
+[data-theme="dark"] .contact-section{color:#fff}
+[data-theme="dark"] .contact-content{background:rgba(8,18,32,.82)}
+[data-theme="dark"] .dark-section,[data-theme="dark"] .site-footer{background:#091321}
+[data-theme="dark"] .site-footer{color:#c9d4df}
+[data-theme="dark"] .menu-toggle{color:#fff}
+@media(max-width:760px){[data-theme="dark"] .site-nav{background:#142236;color:#f1f3f5;box-shadow:0 15px 25px rgba(0,0,0,.3)}[data-theme="dark"] .site-nav a{border-color:#334459}[data-theme="light"] body:not(.page-home) .site-nav{background:#faf7f0;color:#192735}}

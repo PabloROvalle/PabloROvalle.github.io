@@ -114,3 +114,21 @@ async function loadPublications() {
   }
 }
 loadPublications();
+
+// Theme preference: dark is the default, light is optional, saved between pages.
+const themeToggle = document.querySelector('.theme-toggle');
+function refreshThemeButton(){
+  if (!themeToggle) return;
+  const dark = document.documentElement.dataset.theme !== 'light';
+  themeToggle.querySelector('.theme-toggle-icon').textContent = dark ? '☀' : '☾';
+  themeToggle.querySelector('.theme-toggle-label').textContent = dark ? 'Light' : 'Dark';
+  themeToggle.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  themeToggle.setAttribute('title', dark ? 'Switch to light mode' : 'Switch to dark mode');
+}
+refreshThemeButton();
+if(themeToggle) themeToggle.addEventListener('click',()=>{
+  const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem('pablo-theme', next); } catch(e) {}
+  refreshThemeButton();
+});
