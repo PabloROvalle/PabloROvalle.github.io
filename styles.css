@@ -189,3 +189,25 @@ h2 em,.image-break em{color:#ca8655}
 .contact-links a{color:#fff;border-bottom-color:#efc6a3}
 .contact-links a:hover{color:#ffcc9b}
 @media(max-width:760px){.site-header{padding:10px 6vw}.brand-logo img{width:46px;height:46px}.outreach-entry{grid-template-columns:1fr;gap:2px;padding:20px 0}.contact-section{background-position:62% center;min-height:540px;padding:75px 0}.contact-content{width:calc(100% - 9vw);padding:38px 22px;backdrop-filter:blur(3px)}.contact-content h2{font-size:clamp(2.65rem,10vw,4.5rem)}}
+
+
+/* V12: multipage navigation and clean inner-page presentation */
+.site-nav a[aria-current="page"]{color:#f1b581;border-bottom:1px solid currentColor}
+body:not(.page-home) .site-header{background:#101e2d;position:sticky;top:0}
+body:not(.page-home) .site-header:not(.scrolled) .site-nav a{color:#f2eee8}
+body:not(.page-home) .site-header .site-nav a[aria-current="page"]{color:#f1b581}
+.page-banner{background:linear-gradient(115deg,#101e2d,#26364a 66%,#533c3c);color:white;padding:100px 0 70px}
+.page-banner-kicker{font-size:.7rem;letter-spacing:.22em;color:#efb88b;margin:0 0 20px;font-weight:650}
+.page-banner h1{font-family:var(--serif);font-weight:400;letter-spacing:-.025em;font-size:clamp(3rem,7vw,6rem);line-height:1.06;margin:0}
+body:not(.page-home) main>.section{padding-top:95px;min-height:55vh}
+body.page-contact main>.contact-section{min-height:calc(100vh - 160px);padding:90px 0}
+body.page-home .hero{min-height:100svh}
+.home-explore{background:#fbf7f0}
+.home-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.home-tile{display:flex;flex-direction:column;align-items:start;background:#fffdf8;border-top:3px solid #e79a65;color:#18283a;padding:32px;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.home-tile:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(15,32,45,.10)}
+.home-tile>span{font-size:.67rem;letter-spacing:.16em;color:#a96743;font-weight:700}
+.home-tile h3{font-family:var(--serif);font-size:clamp(1.85rem,3.1vw,2.55rem);font-weight:400;margin:14px 0 8px}
+.home-tile p{color:#5f6269;line-height:1.7;margin:0 0 24px}
+.home-tile b{color:#b76d40;font-weight:650;font-size:.83rem;margin-top:auto}
+@media(max-width:760px){.home-tiles{grid-template-columns:1fr}.home-tile{padding:25px}.page-banner{padding:70px 0 52px}body:not(.page-home) main>.section{padding-top:65px}body:not(.page-home) .site-header .site-nav:not(.open){display:none}}

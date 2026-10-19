@@ -8,7 +8,7 @@ const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 function handleScroll() {
   header.classList.toggle('scrolled', window.scrollY > 60);
   // Limit scroll-based transforms for better performance.
-  if (!reducedMotion.matches && window.innerWidth > 760 && window.scrollY < hero.offsetHeight) {
+  if (hero && heroPhoto && !reducedMotion.matches && window.innerWidth > 760 && window.scrollY < hero.offsetHeight) {
     heroPhoto.style.setProperty('--parallax', `${Math.round(window.scrollY * 0.24)}px`);
   }
 }
@@ -42,13 +42,14 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
 } else {
   document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
 }
-document.getElementById('year').textContent = new Date().getFullYear();
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // Local, periodically updated bibliography. No API keys are ever sent to visitors.
 async function loadPublications() {
   const list = document.getElementById('publication-list');
   const note = document.getElementById('publication-note');
-  if (!list) return;
+  if (!list || !note) return;
   try {
     const response = await fetch(`publications.json?v=${Date.now()}`, { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
