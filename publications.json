@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T10:32:15.435359+00:00",
+  "updated_at": "2026-10-29T10:51:45.831852+00:00",
   "source": "OpenAlex (author matched by ORCID)",
   "orcid": "0000-0003-2594-2128",
   "works": [
@@ -1490,10 +1490,6 @@
           "is_self": false
         },
         {
-          "name": "Glenn S. Orton",
-          "is_self": false
-        },
-        {
           "name": "Katherine de Kleer",
           "is_self": false
         },
@@ -1515,6 +1511,10 @@
         },
         {
           "name": "Patrick M. Fry",
+          "is_self": false
+        },
+        {
+          "name": "Mark R. Showalter",
           "is_self": false
         }
       ],
