@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T12:02:21.728501+00:00",
+  "updated_at": "2026-11-07T11:00:30.655123+00:00",
   "source": "OpenAlex (author matched by ORCID)",
   "orcid": "0000-0003-2594-2128",
   "works": [
@@ -134,7 +134,7 @@
           "is_self": false
         },
         {
-          "name": "Manish  R. Patel",
+          "name": "Manish Patel",
           "is_self": false
         },
         {
@@ -258,7 +258,7 @@
           "is_self": false
         },
         {
-          "name": "Manish  R. Patel",
+          "name": "Manish Patel",
           "is_self": false
         },
         {
@@ -718,7 +718,7 @@
           "is_self": false
         },
         {
-          "name": "Manish  R. Patel",
+          "name": "Manish Patel",
           "is_self": false
         },
         {
@@ -912,7 +912,7 @@
       ],
       "title": "Study of Jupiter's atmosphere with the first data from JWST",
       "year": 2024,
-      "venue": "",
+      "venue": "theses.fr (ABES)",
       "url": "https://doi.org/10.70675/70922659z09fcz436bzbdeez8790d3d758bd"
     },
     {
