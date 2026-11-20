@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:57:31.050559+00:00",
+  "updated_at": "2026-11-20T12:49:38.419336+00:00",
   "source": "OpenAlex (author matched by ORCID)",
   "orcid": "0000-0003-2594-2128",
   "works": [
@@ -282,54 +282,6 @@
       "year": 2026,
       "venue": "",
       "url": "https://doi.org/10.5194/epsc2026-699"
-    },
-    {
-      "authors": [
-        {
-          "name": "Simon Toogood",
-          "is_self": false
-        },
-        {
-          "name": "Leigh N. Fletcher",
-          "is_self": false
-        },
-        {
-          "name": "Oliver R. T. King",
-          "is_self": false
-        },
-        {
-          "name": "Michael T. Roman",
-          "is_self": false
-        },
-        {
-          "name": "Imke de Pater",
-          "is_self": false
-        },
-        {
-          "name": "Francesco Biagiotti",
-          "is_self": false
-        },
-        {
-          "name": "Henrik Melin",
-          "is_self": false
-        },
-        {
-          "name": "Thierry Fouchet",
-          "is_self": false
-        },
-        {
-          "name": "Michael H. Wong",
-          "is_self": false
-        },
-        {
-          "name": "Pablo Rodríguez‐Ovalle",
-          "is_self": true
-        }
-      ],
-      "title": "Distribution of Jovian South Polar Aerosols in the Near-Infrared with JWST/NIRSpec IFU",
-      "year": 2026,
-      "venue": "",
-      "url": "https://doi.org/10.5194/epsc2026-933"
     },
     {
       "authors": [
