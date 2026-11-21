@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T12:49:38.419336+00:00",
+  "updated_at": "2026-11-21T12:35:16.855045+00:00",
   "source": "OpenAlex (author matched by ORCID)",
   "orcid": "0000-0003-2594-2128",
   "works": [
@@ -942,6 +942,82 @@
     {
       "authors": [
         {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Sandrine Guerlet",
+          "is_self": false
+        },
+        {
+          "name": "Thierry Fouchet",
+          "is_self": false
+        },
+        {
+          "name": "Jake Harkett",
+          "is_self": false
+        },
+        {
+          "name": "Thibault Cavalié",
+          "is_self": false
+        },
+        {
+          "name": "Vincent Hue",
+          "is_self": false
+        },
+        {
+          "name": "Sandrine Vinatier",
+          "is_self": false
+        },
+        {
+          "name": "M. López‐Puertas",
+          "is_self": false
+        },
+        {
+          "name": "Leigh N. Fletcher",
+          "is_self": false
+        },
+        {
+          "name": "E. Lellouch",
+          "is_self": false
+        },
+        {
+          "name": "R. Hueso",
+          "is_self": false
+        },
+        {
+          "name": "Imke de Pater",
+          "is_self": false
+        },
+        {
+          "name": "G. S. Orton",
+          "is_self": false
+        },
+        {
+          "name": "Michael T. Roman",
+          "is_self": false
+        },
+        {
+          "name": "Heidi B. Hammel",
+          "is_self": false
+        },
+        {
+          "name": "Stefanie N. Milam",
+          "is_self": false
+        },
+        {
+          "name": "Oliver R. T. King",
+          "is_self": false
+        }
+      ],
+      "title": "Stratospheric aerosols and C6H6 in Jupiter’s south polar region from JWST/MIRI observations",
+      "year": 2024,
+      "venue": "Astronomy and Astrophysics",
+      "url": "https://doi.org/10.1051/0004-6361/202451453"
+    },
+    {
+      "authors": [
+        {
           "name": "Dominique Bockelée-Morvan",
           "is_self": false
         },
@@ -1138,82 +1214,6 @@
       "year": 2024,
       "venue": "Journal of Geophysical Research Planets",
       "url": "https://doi.org/10.1029/2024je008415"
-    },
-    {
-      "authors": [
-        {
-          "name": "Pablo Rodríguez‐Ovalle",
-          "is_self": true
-        },
-        {
-          "name": "Sandrine Guerlet",
-          "is_self": false
-        },
-        {
-          "name": "Thierry Fouchet",
-          "is_self": false
-        },
-        {
-          "name": "Jake Harkett",
-          "is_self": false
-        },
-        {
-          "name": "Thibault Cavalié",
-          "is_self": false
-        },
-        {
-          "name": "Vincent Hue",
-          "is_self": false
-        },
-        {
-          "name": "Sandrine Vinatier",
-          "is_self": false
-        },
-        {
-          "name": "M. López‐Puertas",
-          "is_self": false
-        },
-        {
-          "name": "Leigh N. Fletcher",
-          "is_self": false
-        },
-        {
-          "name": "E. Lellouch",
-          "is_self": false
-        },
-        {
-          "name": "R. Hueso",
-          "is_self": false
-        },
-        {
-          "name": "Imke de Pater",
-          "is_self": false
-        },
-        {
-          "name": "G. S. Orton",
-          "is_self": false
-        },
-        {
-          "name": "Michael T. Roman",
-          "is_self": false
-        },
-        {
-          "name": "Heidi B. Hammel",
-          "is_self": false
-        },
-        {
-          "name": "Stefanie N. Milam",
-          "is_self": false
-        },
-        {
-          "name": "Oliver R. T. King",
-          "is_self": false
-        }
-      ],
-      "title": "Stratospheric aerosols and C6H6 in Jupiter’s south polar region from JWST/MIRI observations",
-      "year": 2024,
-      "venue": "Astronomy and Astrophysics",
-      "url": "https://doi.org/10.1051/0004-6361/202451453"
     },
     {
       "authors": [
@@ -1642,34 +1642,14 @@
           "is_self": true
         },
         {
-          "name": "Alberto Mendi-Martos",
-          "is_self": false
-        },
-        {
-          "name": "Ainhoa Angulo",
-          "is_self": false
-        },
-        {
-          "name": "Iván Reyes‐Rodríguez",
-          "is_self": false
-        },
-        {
-          "name": "M. Pérez-Arrieta",
-          "is_self": false
-        },
-        {
-          "name": "M. A. Illarramendi",
-          "is_self": false
-        },
-        {
-          "name": "Agustín Sánchez-Lavega",
+          "name": "Itziar Gárate-López",
           "is_self": false
         }
       ],
-      "title": "Practical study of optical stellar interferometry",
-      "year": 2023,
-      "venue": "American Journal of Physics",
-      "url": "https://doi.org/10.1119/5.0125446"
+      "title": "More on the dynamics of Venus’ South Polar Vortex from VIRTIS-VEx observations",
+      "year": 2024,
+      "venue": "",
+      "url": "https://doi.org/10.5194/epsc2021-552"
     },
     {
       "authors": [
@@ -1771,9 +1751,45 @@
         }
       ],
       "title": "Composition and thermal properties of Ganymede’s surface from JWST/NIRSpec and MIRI observations",
-      "year": 2023,
+      "year": 2024,
       "venue": "Astronomy and Astrophysics",
       "url": "https://doi.org/10.1051/0004-6361/202347326"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pablo Rodríguez‐Ovalle",
+          "is_self": true
+        },
+        {
+          "name": "Alberto Mendi-Martos",
+          "is_self": false
+        },
+        {
+          "name": "Ainhoa Angulo",
+          "is_self": false
+        },
+        {
+          "name": "Iván Reyes‐Rodríguez",
+          "is_self": false
+        },
+        {
+          "name": "M. Pérez-Arrieta",
+          "is_self": false
+        },
+        {
+          "name": "M. A. Illarramendi",
+          "is_self": false
+        },
+        {
+          "name": "Agustín Sánchez-Lavega",
+          "is_self": false
+        }
+      ],
+      "title": "Practical study of optical stellar interferometry",
+      "year": 2023,
+      "venue": "American Journal of Physics",
+      "url": "https://doi.org/10.1119/5.0125446"
     },
     {
       "authors": [
@@ -2142,22 +2158,6 @@
       "year": 2022,
       "venue": "",
       "url": "https://doi.org/10.5194/epsc2022-387"
-    },
-    {
-      "authors": [
-        {
-          "name": "Pablo Rodríguez‐Ovalle",
-          "is_self": true
-        },
-        {
-          "name": "Itziar Gárate-López",
-          "is_self": false
-        }
-      ],
-      "title": "More on the dynamics of Venus’ South Polar Vortex from VIRTIS-VEx observations",
-      "year": 2021,
-      "venue": "",
-      "url": "https://doi.org/10.5194/epsc2021-552"
     }
   ]
 }
