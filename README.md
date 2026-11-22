@@ -31,3 +31,16 @@ V13 update: uses the new Ancares sunset image as the top image on Home and all s
 - Light/Dark toggle is in the site header; it remembers the choice using browser localStorage.
 - To reset the theme on a device, select Dark in the toggle or clear this site's browser storage.
 - HTML, CSS and JS modified; existing assets, SEO and publication sync retained.
+
+
+## V15: Scientific editorial style (November 2026)
+
+- Uses IBM Plex Sans for body text and headings, IBM Plex Mono for small labels and dates.
+- The new `scientific-theme.css` overrides older theme declarations; it must be uploaded with the rest of the files.
+- Dark mode stays the default and the existing Light/Dark selector keeps the choice between pages.
+- Academic navy/steel-blue palettes with better legibility and less decorative typography.
+- `projects.html` adds a linked 2026 Santander Open Academy postdoctoral research funding note to FLAMENCO.
+- `teaching.html` adds a University of Seville fourth-year Jupiter aerosol modelling student and a Master's thesis student studying Martian CO with ACS/MIR; names are marked TBD.
+- Existing publications syncing workflow, data, SEO, outreach, photos and icons remain intact.
+
+Upload the extracted CONTENTS of this ZIP to the repository root, including the new `scientific-theme.css`. No changes are required in GitHub Pages or Google Search Console.

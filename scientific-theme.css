@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+/* V15 — scientific editorial system. Keep legacy layout in styles.css. */
+:root {
+  --sans: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+  --serif: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --ink: #1b2a3c;
+  --muted: #52657b;
+  --paper: #f5f7fb;
+  --forest: #132841;
+  --sage: #6a8eaa;
+  --accent: #245f90;
+  --ui-surface: #ffffff;
+  --ui-surface-soft: #edf2f8;
+  --ui-line: #d6e0ea;
+  --ui-link: #215e91;
+  --ui-accent: #286c94;
+  --ui-accent-soft: #e0eef8;
+  --ui-header: #0e223a;
+}
+:root[data-theme="light"] {
+  --ink: #1b2a3c; --muted: #52657b; --paper: #f5f7fb;
+  --forest: #132841; --sage: #6a8eaa; --accent: #245f90;
+  --ui-surface: #ffffff; --ui-surface-soft: #edf2f8;
+  --ui-line: #d6e0ea; --ui-link: #215e91;
+  --ui-accent: #286c94; --ui-accent-soft: #e0eef8;
+  --ui-header: #0e223a;
+}
+:root[data-theme="dark"] {
+  --ink: #e4ecf5; --muted: #b1c1d4; --paper: #0b1422;
+  --forest: #101f33; --sage: #9eb3cb; --accent: #8ccae6;
+  --ui-surface: #14233a; --ui-surface-soft: #1b2d46;
+  --ui-line: #34465f; --ui-link: #9bd5ee;
+  --ui-accent: #8ccae6; --ui-accent-soft: #1c3a52;
+  --ui-header: #081627;
+}
+:root[data-theme="dark"] body,
+:root[data-theme="light"] body {
+  background: var(--paper); color: var(--ink);
+  font-family: var(--sans); font-size: 16px; line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+body, button { font-family: var(--sans); }
+::selection { background: #7fbbda88; }
+/* Typography: hierarchy without oversized fashion/editorial serif headings. */
+h1,h2,h3,h4,h5,h6 {font-family:var(--sans); letter-spacing:-.022em;}
+h2, .section-heading h2, .contact-content h2 {
+  font-family: var(--sans); font-size: clamp(2rem,3.5vw,3.35rem);
+  line-height:1.17; font-weight:600; letter-spacing:-.038em;
+}
+h2 em, .section-heading h2 em, .contact-content h2 em {
+  font-family:inherit; font-size:inherit; font-style:normal; font-weight:600;
+  color:inherit;
+}
+.hero h1 {
+  font-family:var(--sans); font-size:clamp(3.1rem,7.2vw,6.7rem);
+  font-weight:600; line-height:1.08; letter-spacing:-.054em;
+  max-width:1120px; text-wrap:balance;
+}
+.page-banner h1 {
+  font-family:var(--sans); font-size:clamp(2.75rem,5.2vw,4.6rem);
+  font-weight:600; letter-spacing:-.04em; line-height:1.16;
+}
+.hero-subtitle {font-size:clamp(1rem,1.5vw,1.28rem);font-weight:500;letter-spacing:.01em;}
+.hero-intro {font-size:1rem;max-width:520px;}
+.eyebrow,.hero-eyebrow,.page-banner-kicker,
+.project-type,.card-number,.teaching-panel-kicker,.outreach-date,
+.mentoring-degree,.pub-year,.home-tile>span,.funding-label {
+  font-family:var(--mono);font-size:.7rem;line-height:1.7;
+  letter-spacing:.035em;font-weight:500;
+}
+.eyebrow { color:var(--ui-accent); }
+.page-banner-kicker {color:#c8dbea;letter-spacing:.09em;}
+.section {padding:105px 0;}
+.section-heading {margin-bottom:36px;}
+.section-heading>p,.research-summary p,.about-copy p,
+.info-card p,.publication p,.project-card p,.outreach-entry p {
+  line-height:1.78;
+}
+.section-heading>p {color:var(--muted);}
+/* Keep supplied mountain images; make text easy to read without masking the landscape. */
+.hero-shade {background:linear-gradient(90deg,rgba(4,14,31,.78),rgba(4,14,31,.08) 85%),linear-gradient(0deg,rgba(4,14,31,.50),transparent 48%)}
+.hero .accent {color:#bcd8e9;}
+.page-banner {background-image:linear-gradient(180deg,rgba(5,15,30,.38),rgba(5,15,30,.66)),url('assets/ancares-sunset-banner.png');}
+body.page-outreach .page-banner {background-image:linear-gradient(180deg,rgba(5,15,30,.22),rgba(5,15,30,.48)),url('assets/mountain-night-sky.png');}
+/* Navigation and controls. */
+.site-nav a {font-family:var(--sans);font-size:.79rem;font-weight:500;letter-spacing:0;}
+.site-nav a[aria-current="page"],
+body:not(.page-home) .site-header .site-nav a[aria-current="page"],
+:root[data-theme="dark"] .site-nav a[aria-current="page"] {
+  color:#b4ddf2;border-color:#b4ddf2;
+}
+body:not(.page-home) .site-header {background:var(--ui-header);color:#f0f6fa;}
+body:not(.page-home) .site-header .site-nav a {color:#f0f6fa;}
+body:not(.page-home) .site-header.scrolled {background:var(--ui-header);color:#f0f6fa;}
+body:not(.page-home) .site-header.scrolled .theme-toggle,
+body:not(.page-home) .site-header .theme-toggle {
+  background:rgba(255,255,255,.04);color:#f0f6fa;border-color:#58718b;
+}
+:root[data-theme="light"] .site-header.scrolled {background:rgba(247,249,253,.97);color:var(--ink);}
+:root[data-theme="dark"] .site-header.scrolled {background:rgba(10,21,35,.98);color:#f0f6fa;}
+:root[data-theme="dark"] .site-header.scrolled .theme-toggle {background:#132943;color:#e4ecf5;border-color:#52708c;}
+:root[data-theme="light"] .site-header.scrolled .theme-toggle {background:#eaf0f6;color:#1b2a3c;border-color:#bacadb;}
+:root[data-theme="light"] body:not(.page-home) .site-header.scrolled .theme-toggle,
+:root[data-theme="dark"] body:not(.page-home) .site-header.scrolled .theme-toggle {background:rgba(255,255,255,.04);color:#f0f6fa;border-color:#58718b;}
+.theme-toggle {border-radius:4px;font-family:var(--mono);font-size:.69rem;letter-spacing:0;}
+.button {border-radius:4px;font-family:var(--sans);font-weight:600;}
+.button-light {background:#e7f3fb;color:#152a41;}
+.button-dark {background:#1b4d71;color:#fff;}
+/* Light and dark surfaces share the same accessible design tokens. */
+:root[data-theme="light"] :is(.about-section,.research-section,.projects-section,.teaching-section,.outreach-section,.home-explore),
+:root[data-theme="dark"] :is(.about-section,.research-section,.projects-section,.teaching-section,.outreach-section,.home-explore) {
+  background:var(--paper);color:var(--ink);
+}
+:root[data-theme="light"] .pale-section,
+:root[data-theme="dark"] .pale-section {background:var(--ui-surface-soft);color:var(--ink);}
+:root[data-theme="light"] :is(.home-tile,.project-card,.project-card.active,.teaching-panel,.info-card,.research-section .info-card),
+:root[data-theme="dark"] :is(.home-tile,.project-card,.project-card.active,.teaching-panel,.info-card,.research-section .info-card) {
+  background:var(--ui-surface);color:var(--ink);
+  border:1px solid var(--ui-line); border-top:2px solid var(--ui-accent);
+  box-shadow:none;border-radius:4px;
+}
+:root[data-theme="light"] .project-card.active,
+:root[data-theme="dark"] .project-card.active {background:var(--ui-surface);}
+:root[data-theme="light"] :is(.home-tile p,.info-card p,.project-card p,.research-card-body p,.teaching-intro,.outreach-entry p),
+:root[data-theme="dark"] :is(.home-tile p,.info-card p,.project-card p,.research-card-body p,.teaching-intro,.outreach-entry p) {color:var(--muted);}
+:root[data-theme="light"] :is(.about-copy p,.about-copy .lead,.section-heading>p,.research-summary p),
+:root[data-theme="dark"] :is(.about-copy p,.about-copy .lead,.section-heading>p,.research-summary p) {color:var(--muted);}
+:root[data-theme="light"] .about-copy .lead,
+:root[data-theme="dark"] .about-copy .lead {color:var(--ink);}
+:root[data-theme="light"] :is(.eyebrow,.project-type,.project-meta,.pub-year,.teaching-panel-kicker,.outreach-date,.card-number,.research-section .card-number,.home-tile>span,.home-tile b),
+:root[data-theme="dark"] :is(.eyebrow,.project-type,.project-meta,.pub-year,.teaching-panel-kicker,.outreach-date,.card-number,.research-section .card-number,.home-tile>span,.home-tile b) {
+  color:var(--ui-accent);font-weight:600;
+}
+:root[data-theme="dark"] .site-footer,
+:root[data-theme="dark"] .dark-section {background:#071422;color:#e3edf7;}
+:root[data-theme="light"] .site-footer,
+:root[data-theme="light"] .dark-section {background:#142941;color:#eff5f9;}
+.dark-section .eyebrow {color:#a2d3e9;}
+.dark-section .section-heading>p {color:#c1d1e0;}
+.dark-section h2 em {color:inherit;}
+.site-footer {font-size:.8rem;}
+/* Lists, technical details and references. */
+:root[data-theme="light"] :is(.publication-list,.publication,.outreach-list,.outreach-entry,.course-list,.course-item,.mentoring-entry),
+:root[data-theme="dark"] :is(.publication-list,.publication,.outreach-list,.outreach-entry,.course-list,.course-item,.mentoring-entry) {
+  border-color:var(--ui-line);
+}
+:root[data-theme="light"] :is(.pub-year,.publication .pub-self,.publication a.pub-link,.course-item>strong,.research-link,.bio-details summary),
+:root[data-theme="dark"] :is(.pub-year,.publication .pub-self,.publication a.pub-link,.course-item>strong,.research-link,.bio-details summary) {
+  color:var(--ui-link);border-color:var(--ui-link);
+}
+:root[data-theme="light"] .publication .pub-authors,
+:root[data-theme="dark"] .publication .pub-authors {color:var(--ink);}
+:root[data-theme="light"] :is(.publication p,.course-item span,.mentoring-credit span),
+:root[data-theme="dark"] :is(.publication p,.course-item span,.mentoring-credit span) {color:var(--muted);}
+:root[data-theme="light"] :is(.mentoring-thesis,.outreach-entry h3),
+:root[data-theme="dark"] :is(.mentoring-thesis,.outreach-entry h3) {color:var(--ink);}
+.publication h3,.experience-section .timeline-item h3 {font-size:1.08rem;line-height:1.5;font-weight:600;}
+.home-tile h3,.project-card h3,.teaching-panel h3,.outreach-entry h3,
+.research-section .research-card-body h3,.mentoring-entry h4 {
+  font-family:var(--sans);font-size:clamp(1.23rem,2vw,1.62rem);
+  line-height:1.35;font-weight:600;letter-spacing:-.025em;
+}
+.mentoring-entry h4 {margin:12px 0 9px;}
+.mentoring-thesis {font-style:normal;font-size:.95rem;line-height:1.72;}
+.mentoring-entry + .mentoring-entry {margin-top:24px;}
+.project-card,.teaching-panel {padding:28px;}
+.project-logo {border:none;background:transparent;}
+.institution-logo,.experience-logo {background:#fff;border:1px solid #dbe4ed;}
+:root[data-theme="light"] .about-portrait {background:#ebf1f7;box-shadow:none;}
+:root[data-theme="dark"] .about-portrait {background:#192941;box-shadow:none;}
+.status-badge {background:#214f70;color:#f6fbff;border-radius:4px;font-family:var(--mono);font-size:.61rem;letter-spacing:.02em;}
+/* Award badge specifically belongs to FLAMENCO, no unrelated text changes. */
+.project-funding {margin-top:20px;padding:16px 17px;background:var(--ui-accent-soft);border-left:3px solid var(--ui-accent);border-radius:2px;}
+.project-funding .funding-label {display:block;color:var(--ui-accent);margin-bottom:8px;font-weight:600;}
+.project-funding p {font-size:.85rem;line-height:1.65;color:var(--ink) !important;margin:0;}
+.project-funding a {font-weight:600;color:var(--ui-link);text-decoration:underline;text-underline-offset:3px;}
+:root[data-theme="dark"] .contact-content {background:rgba(7,18,31,.85);}
+:root[data-theme="light"] .contact-content {background:rgba(10,28,44,.78);}
+/* Mobile navigation has a theme-aware readable surface. */
+@media(max-width:760px) {
+  .hero h1 {font-size:clamp(2.8rem,9.5vw,5rem);}
+  .section {padding:75px 0;}
+  .page-banner h1 {font-size:clamp(2.4rem,8vw,3.6rem);}
+  :root[data-theme="light"] .site-nav.open {background:#f7f9fc;color:#1b2a3c;}
+  :root[data-theme="dark"] .site-nav.open {background:#101f33;color:#e4ecf5;}
+  :root[data-theme="light"] body:not(.page-home) .site-header .site-nav.open a {color:#1b2a3c;}
+  :root[data-theme="dark"] body:not(.page-home) .site-header .site-nav.open a {color:#e4ecf5;}
+  :root[data-theme="light"] .site-nav.open a[aria-current="page"] {color:#235f8f;}
+  :root[data-theme="dark"] .site-nav.open a[aria-current="page"] {color:#9bd5ee;}
+  .teaching-panel,.project-card {padding:23px;}
+}
+/* Specificity guards for inherited legacy theme rules. */
+:root[data-theme="light"] h2 em,
+:root[data-theme="dark"] h2 em,
+:root[data-theme="light"] .contact-content h2 em,
+:root[data-theme="dark"] .contact-content h2 em {color:inherit;}
+:root[data-theme="light"] .dark-section .section-heading>p,
+:root[data-theme="dark"] .dark-section .section-heading>p {color:#c1d1e0;}
+:root[data-theme="light"] body:not(.page-home) .site-header,
+:root[data-theme="light"] body:not(.page-home) .site-header.scrolled,
+:root[data-theme="dark"] body:not(.page-home) .site-header,
+:root[data-theme="dark"] body:not(.page-home) .site-header.scrolled {
+  background:var(--ui-header);color:#f0f6fa;
+}
+@media(prefers-reduced-motion:reduce) {
+  .home-tile,.project-card,.button,.institution-logo {transition:none;}
+}
