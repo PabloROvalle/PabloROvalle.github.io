@@ -20,7 +20,7 @@
   --ui-header: #0e223a;
 }
 :root[data-theme="light"] {
-  --ink: #1b2a3c; --muted: #52657b; --paper: #e9edf3;
+  --ink: #1b2a3c; --muted: #52657b; --paper: #dfe5ec;
   --forest: #132841; --sage: #6a8eaa; --accent: #245f90;
   --ui-surface: #ffffff; --ui-surface-soft: #edf2f8;
   --ui-line: #d6e0ea; --ui-link: #215e91;
