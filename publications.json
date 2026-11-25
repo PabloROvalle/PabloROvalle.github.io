@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:48:41.129711+00:00",
+  "updated_at": "2026-11-25T14:15:02.133232+00:00",
   "source": "OpenAlex (author matched by ORCID)",
   "orcid": "0000-0003-2594-2128",
   "works": [
@@ -1892,7 +1892,7 @@
       ],
       "title": "Composition and thermal properties of Ganymede's surface from JWST/NIRSpec and MIRI observations",
       "year": 2023,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "url": "https://doi.org/10.48550/arxiv.2310.13982"
     },
     {
